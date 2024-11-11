@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+
+<!-- Uses Jinja to display the output of the /quote lookup from app.py-->
+<p>{{ name }}</p>
+<p>{{ price | usd }}</p>
+
+{% endblock %}

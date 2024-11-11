@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<a class="button" href="/password" id="left-allign">Change Password</a>
+<h1>{{ username }}'s Portfolio</h1>
+<table>
+    <tr>
+        <th>Symbol</th>
+        <th>Shares</th>
+        <th>Price per Share</th>
+        <th>Cost</th>
+    </tr>
+    {% for share in shares %}
+    <tr>
+        <td>{{ share.symbol }}</td>
+        <td>{{ share['total_shares'] }}</td>
+        <td>{{ prices[share.symbol] | usd }}</td>
+        <td>{{ costs[share.symbol] | usd}}</td>
+    </tr>
+    {% endfor %}
+    <tr class="summary">
+        <td colspan="3">Balance</td>
+        <td>{{ cash | usd }}</td>
+    </tr>
+    <tr class="summary">
+        <td colspan="3">Grand Total</td>
+        <td>{{ total_value | usd}}</td>
+    </tr>
+</table>
+{% endblock %}

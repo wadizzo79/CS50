@@ -1,0 +1,40 @@
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn.btn-primary.dropdown-toggle {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+[data-bs-toggle="dropdown"] {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.container p {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: black;
+    text-align: justify;
+}
+
+button.btn.btn-primary.dropdown-toggle:hover {
+    background-color: darkgreen;
+    color: white;
+    border: 2px solid darkgreen;
+    transform: scale(1.05);
+    font-family: 'Brush Script MT', cursive;
+}

@@ -1,0 +1,8 @@
+The HTML tags used for crafting this website are:
+<ul>,<li>,<a>,<p>,<button>,<section>,<div>,<header>,<footer>,<h1>
+
+The CSS properties used are:
+padding, border-radius,font-family,font-weight,box-shadow
+
+I used JavaScript Date which shows the date on the page and
+the bootstrap to create a navigation bar and the button.
