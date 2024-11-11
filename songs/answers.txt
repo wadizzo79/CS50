@@ -1,0 +1,4 @@
+Purple Aura
+
+It might not be representative of the listener because these are just calculations when the listener could just be given a purple aura when in reality they are actually green.
+A better way of calculating this would be using a phone's motion sensor to track how they listen to the music.
