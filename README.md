@@ -37,6 +37,5 @@ Examples:
 The structure generally follows the CS50 weekly problem sets.
 
 ## Notes
-- All code in this repository was written for **educational purposes**.
 - Solutions may not represent the most optimized or production-ready implementations.
 - Some problems may have multiple valid approaches.
